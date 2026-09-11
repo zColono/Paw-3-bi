@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro — Clínica Veterinária</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="topo">
+    <h1>🐾 Clínica Veterinária</h1>
+    <div class="usuario-info">
+      <span id="nomeUsuarioLogado"></span>
+      <button id="btnSair">Sair</button>
+    </div>
+  </header>
+
+  <main>
+    <a href="painel.html" class="voltar">&larr; Voltar ao painel</a>
+
+    <div class="card">
+      <div class="topo-pagina">
+        <h2 id="tituloPagina">Cadastro</h2>
+        <span class="selo">Novo registro</span>
+      </div>
+      <p id="descricaoPagina"></p>
+
+      <form id="formCadastro"></form>
+
+      <div id="mensagem" class="mensagem"></div>
+    </div>
+  </main>
+
+  <script type="module" src="js/cadastro.js"></script>
+</body>
+
+</html>
